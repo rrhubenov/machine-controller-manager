@@ -80,7 +80,7 @@ MCM mainly contains the following sub-controllers:
 
 * `MachineDeployment Controller`: Responsible for reconciling the `MachineDeployment` objects. It manages the lifecycle of the `MachineSet` objects.
 * `MachineSet Controller`: Responsible for reconciling the `MachineSet` objects. It manages the lifecycle of the `Machine` objects.
-* `Machine Controller`: responsible for reconciling the `Machine` objects. It manages the lifecycle of the actual VMs/machines created in cloud/on-prem. This controller has been moved out of tree. Please refer an AWS machine controller for more info - [link](https://github.com/gardener/machine-controller-manager-provider-gcp).
+* `Machine Controller`: responsible for reconciling the `Machine` objects. It manages the lifecycle of the actual VMs/machines created in cloud/on-prem. This controller has been moved out of tree. Please refer an AWS machine controller for more info - [link](https://github.com/gardener/machine-controller-manager-provider-aws).
 * Safety-controller: Responsible for handling the unidentified/unknown behaviors from the cloud providers. Please read more about its functionality [below](#what-is-safety-controller).
 
 ### What is Safety Controller in MCM?
